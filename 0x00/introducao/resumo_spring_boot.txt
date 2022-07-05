@@ -1,0 +1,21 @@
+Resumo Framework Spring Boot
+
+    O Spring Boot faz parte da família de Framework Spring e foi criado com o intuito de facilitar
+a configuração da aplicação sendo desenvolvida. Ou seja, em um primeiro momento, o Spring Boot é
+responsável para dar o início à aplicação, o que remete seu nome, e também na produção final do
+aplicativo em relação às dependências.
+    Através do pom.xml ele consegue, seguindo convenções, configurar o projeto adicionando as dependências já definidas,
+suas subdependências com o gerenciamento de suas compatibilidades e também já vem com um servidor totalmente configurado
+(padrão Tomcat). Entre as dependências disponíveis estão o dev tools, que sobe a aplicação novamente a cada modificação
+de código e possui outras facilidades, e o Actuator, que monitora a saúde da aplicação, fornecendo diversas métricas e
+recursos, sempre levando em conta o modelo convenção sobre configuração, gerando menos código.
+    Em relação à IDEs, deve ser levado em consideração as preferências pessoais e a familiaridade, já que o Spring Boot
+por si já facilita muito o trabalho do desenvolvedor. O Spring Tool Suite tende a facilitar o uso de Spring em IDEs que
+já não são configuradas principalmente para Java, o que já mostra como é importante a familiariedade com a IDE para sua
+escolha. Em particular, prefiro a IDE IntelliJ IDEA, que mesmo em sua versão community fornece muitos recursos para o
+desenvolvimento Java no geral e também de Spring.
+    Por fim, o Spring Initializr é uma ferramenta muito interessante, que serve para, literalmente, inicializar sua
+aplicação Spring, onde são definidas a versão Java, gerenciador de dependências (maven ou gradle), e principalmente
+já as dependências desejadas para a aplicação, não sendo necessário criar um projeto do zero definindo à mão cada
+dependência para o pom.xml (no caso exclusivo de maven).
+
