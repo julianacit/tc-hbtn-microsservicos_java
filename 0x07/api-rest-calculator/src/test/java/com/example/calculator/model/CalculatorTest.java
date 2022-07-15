@@ -10,7 +10,7 @@ import java.util.Date;
 public class CalculatorTest {
     private static Calculator calculator;
 
-    @BeforeAll
+    @BeforeEach
     public static void setup() {
         calculator = new Calculator();
     }
