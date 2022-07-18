@@ -53,7 +53,7 @@ public class ProductController {
     public void updateProduct (@RequestBody Product product) {
         productRepository.updateProduct(product);
     }
-    @DeleteMapping(value = "removeProduct")
+    @DeleteMapping(value = "/removeProduct")
     @ApiOperation(value = "Responsável por remover um produto.")
     @ApiResponses(value = {
             @ApiResponse(code = 13, message = "User not allowed to remove a product from this category.")
